@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+# Peet's Granite & Building Solutions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Peet's Granite & Building Solutions is a premier provider of high-quality granite countertops and expert building solutions. We specialize in delivering tailored projects that bring elegance and durability to life, ensuring every client's vision is reflected with precision and care. Our solutions are designed to transform spaces and enhance the beauty and functionality of your home or business.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [About](#about)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## About
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+At Peet's Granite & Building Solutions, we pride ourselves on our craftsmanship, attention to detail, and commitment to customer satisfaction. From stunning granite countertops to reliable building services, we deliver high-quality solutions that stand the test of time. Whether you're renovating your kitchen, bathroom, or creating custom projects, we offer personalized services that ensure your vision is realized.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Features
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Granite Countertops**: Elegant and durable granite countertops for kitchens, bathrooms, and more.
+- **Custom Building Solutions**: Tailored solutions for any construction project, from homes to commercial spaces.
+- **Project Management**: End-to-end project management, ensuring timely and on-budget delivery.
+- **Expert Craftsmanship**: Skilled artisans dedicated to delivering exceptional results.
+- **Customer-Focused**: Personalized services to meet the unique needs of every client.
+
+---
+
+## Technology Stack
+
+This project uses modern web technologies to ensure an exceptional user experience.
+
+- **Frontend**: React.js, TailwindCSS
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Authentication**: JWT
+- **Version Control**: Git, GitHub
+- **Deployment**: Netlify (for frontend) & Heroku (for backend)
+
+---
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Terkihacks/Peets-granite-solution.git
