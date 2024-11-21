@@ -36,7 +36,7 @@ At Peet's Granite & Building Solutions, we pride ourselves on our craftsmanship,
 
 This project uses modern web technologies to ensure an exceptional user experience.
 
-- **Frontend**: React.js, TailwindCSS
+- **Frontend**: React.js,Typescript,vite,TailwindCSS
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL
 - **Authentication**: JWT
