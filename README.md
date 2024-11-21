@@ -52,3 +52,10 @@ To get started with the project, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Terkihacks/Peets-granite-solution.git
+
+## Usage
+-Once the application is up and running, you can:
+
+View available products and services on the homepage.
+Navigate through different sections, such as Home, Products, Contact, and About.
+Submit contact inquiries for quotes or project consultations.
