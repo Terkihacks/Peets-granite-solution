@@ -1,4 +1,3 @@
-
 import { FaWhatsapp } from 'react-icons/fa'
 import { productList } from '../data/products'
 export default function Catalog(){
