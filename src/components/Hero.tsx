@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import image3 from '../assets/image 3.webp'
 export default function Hero(){
     return(
@@ -14,8 +15,11 @@ export default function Hero(){
         At Peet's Granite & Building Solutions, we bring elegance and durability to life. From stunning granite
          countertops to expert building solutions, we tailor every project to reflect your vision with precision and care.
         </h3>
-        <button type="button" className="bg-indigo-600 hover:bg-indigo-700 text-white text-base text-wide px-6
-         py-2 mb-2  transition duration-300 ease-in-out shadow-lg hover:shadow-xl">View Products </button>
+        <Link
+        to = '/products'
+        ><button type="button" className="bg-indigo-600 hover:bg-indigo-700 text-white text-base text-wide px-6
+        py-2 mb-2  transition duration-300 ease-in-out shadow-lg hover:shadow-xl">View Products </button>
+        </Link>
       </div>
     </div>
         </>

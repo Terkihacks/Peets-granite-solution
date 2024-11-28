@@ -27,13 +27,6 @@ export const productList:productTypes[] = [
         image:image3,
         price:'Ksh 16000'
     },
-    {
-        id:4,
-        name:'Granite Level 5',
-        description:
-        'The best Granite for counter tops and building solutuions in your home',
-        image:image3,
-        price:'Ksh 16000'
-    }
+   
 
 ]
