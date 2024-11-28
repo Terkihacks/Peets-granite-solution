@@ -2,7 +2,7 @@ import { FaWhatsapp } from 'react-icons/fa'
 import { productList } from '../data/products'
 export default function Catalog(){
     return(
-    <div className='flex flex-row flex-wrap pl-8 pb-4 gap-4 justify-center w-[90%] md:justify-center '> 
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4 '> 
   {productList.map((product) => (
                 <div key={product.id} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
                     <div className="px-4 py-2">
