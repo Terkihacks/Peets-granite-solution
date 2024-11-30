@@ -13,12 +13,7 @@ export default function Products(){
                         <p className="text-gray-600">Explore our latest collection and best offers!</p>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {[...Array(7)].map((_, index) => (
-                            <SaleProduct
-                             key={index}
-                             
-                             />
-                        ))}
+                         <SaleProduct/>
                     </div>
                 </div>
             </main>
