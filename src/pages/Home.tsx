@@ -1,4 +1,4 @@
-import Catalog from "../components/Catalog";
+import Explore from "../components/Explore";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
@@ -11,10 +11,7 @@ export default function Home(){
     <div className="">
     <Hero/>
     </div>
-    <h2 className="flex flex-row text-4xl md:text-3xl font-extrabold justify-center my-3 py-3">PRODUCTS</h2>
-    <div className="flex flex-wrap w-[90%] md:w-[80%] mx-auto gap-[30px] md:justify-center">
-    <Catalog/>
-    </div>
+    <Explore/>
     <Footer/>
   </main>
 </div>
