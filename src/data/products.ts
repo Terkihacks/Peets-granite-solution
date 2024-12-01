@@ -1,4 +1,5 @@
 import { productTypes } from '../types/types'
+import image3 from '../assets/image 3.webp'
 import selgatio from '../assets/selgatio.jpeg'
 import Rosa  from '../assets/Rosa.jpeg'
 import WhiteEldo from '../assets/White Eldo.jpeg'
@@ -46,6 +47,14 @@ export const productList:productTypes[] = [
         '2.40 * 0.60 18mm thickness',
         image:redRoyale,
         price:'16000'
+    },
+    {
+        id:5,
+        name:'Sample',
+        description:
+        'Best available',
+        image:image3,
+        price:'7000'
     }
    
 
